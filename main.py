@@ -11,6 +11,6 @@ def print_program_info():
 if __name__ == '__main__':
     print_program_info()
 
-    EC2server = Server('3.12.129.47')
+    EC2server = Server('18.191.53.207')
 
     print(EC2server.ping())
